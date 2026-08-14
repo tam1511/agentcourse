@@ -1,0 +1,22 @@
+name: agents-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - resend
+      - openai-agents
+      - python-dotenv
+      - tavily-python
+      - gradio
+      - langgraph
+      - langchain-openai
+      - langchain-community
+      - openai
+      - pydantic
+      - requests
+      - httpx
+      - ipykernel
+      - jupyterlab
