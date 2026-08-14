@@ -1,0 +1,149 @@
+{
+  "entities": [
+    {
+      "name": "Dược phẩm",
+      "entityType": "vi_tri",
+      "observations": [
+        "Mức lương trung bình: 47,9 triệu đồng/tháng",
+        "Mức độ nhu cầu: Cao",
+        "Loại: Ngành nghề"
+      ]
+    },
+    {
+      "name": "Ngân hàng",
+      "entityType": "vi_tri",
+      "observations": [
+        "Mức lương trung bình: 40,5 triệu đồng/tháng",
+        "Mức độ nhu cầu: Cao",
+        "Loại: Ngành nghề"
+      ]
+    },
+    {
+      "name": "Dịch vụ tài chính",
+      "entityType": "vi_tri",
+      "observations": [
+        "Mức lương trung bình: 38,6 triệu đồng/tháng",
+        "Mức độ nhu cầu: Cao",
+        "Loại: Ngành nghề"
+      ]
+    },
+    {
+      "name": "Công ty Consulting",
+      "entityType": "vi_tri",
+      "observations": [
+        "Mức lương trung bình: 45,5 triệu đồng/tháng",
+        "Mức độ nhu cầu: Cao",
+        "Loại: Công ty"
+      ]
+    },
+    {
+      "name": "Công ty Product",
+      "entityType": "vi_tri",
+      "observations": [
+        "Mức lương trung bình: 37,7 triệu đồng/tháng",
+        "Mức độ nhu cầu: Trung bình",
+        "Loại: Công ty"
+      ]
+    },
+    {
+      "name": "Công ty ngoài IT (Non-IT)",
+      "entityType": "vi_tri",
+      "observations": [
+        "Mức lương trung bình: 35,2 triệu đồng/tháng",
+        "Mức độ nhu cầu: Trung bình",
+        "Loại: Công ty"
+      ]
+    },
+    {
+      "name": "Backend",
+      "entityType": "ky_nang",
+      "observations": [
+        "Nhu cầu: Cao",
+        "Lương TB: 50 triệu đồng/tháng",
+        "Loại: backend"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "entityType": "ky_nang",
+      "observations": [
+        "Nhu cầu: Cao",
+        "Lương TB: 45 triệu đồng/tháng",
+        "Loại: frontend"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "entityType": "ky_nang",
+      "observations": [
+        "Nhu cầu: Trung bình",
+        "Lương TB: 55 triệu đồng/tháng",
+        "Loại: devops"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "entityType": "ky_nang",
+      "observations": [
+        "Nhu cầu: Cao",
+        "Lương TB: 60 triệu đồng/tháng",
+        "Loại: data"
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "entityType": "ky_nang",
+      "observations": [
+        "Nhu cầu: Trung bình",
+        "Lương TB: 40 triệu đồng/tháng",
+        "Loại: mobile"
+      ]
+    },
+    {
+      "name": "AI",
+      "entityType": "ky_nang",
+      "observations": [
+        "Nhu cầu: Cao",
+        "Lương TB: 70 triệu đồng/tháng",
+        "Loại: ai"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "from": "Backend",
+      "to": "Dược phẩm",
+      "relationType": "required_for"
+    },
+    {
+      "from": "Backend",
+      "to": "Ngân hàng",
+      "relationType": "required_for"
+    },
+    {
+      "from": "Frontend",
+      "to": "Ngân hàng",
+      "relationType": "required_for"
+    },
+    {
+      "from": "DevOps",
+      "to": "Công ty Consulting",
+      "relationType": "required_for"
+    },
+    {
+      "from": "Data Science",
+      "to": "Dịch vụ tài chính",
+      "relationType": "required_for"
+    },
+    {
+      "from": "Mobile Development",
+      "to": "Công ty Product",
+      "relationType": "required_for"
+    },
+    {
+      "from": "AI",
+      "to": "Công ty Consulting",
+      "relationType": "required_for"
+    }
+  ]
+}

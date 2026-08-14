@@ -1,0 +1,8 @@
+resend
+openai-agents
+python-dotenv
+tavily-python
+gradio
+langgraph 
+langchain-openai
+langchain-community
