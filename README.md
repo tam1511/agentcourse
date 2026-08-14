@@ -4,6 +4,8 @@
 
 *Hành trình 5 tuần để tự xây dựng, triển khai và vận hành AI Agent thực chiến cho doanh nghiệp Việt Nam.*
 
+![MarketIQ Demo](assets/images/agentcourse_thumbnail.png)
+
 > 💡 Nếu bạn đang xem file này trong Cursor hoặc VS Code, hãy click chuột phải vào tên file trong Explorer bên trái và chọn **"Open Preview"** để xem đúng định dạng.
 
 ---
