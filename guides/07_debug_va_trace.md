@@ -33,4 +33,4 @@ AI Agent là "hộp đen" nếu bạn không có công cụ quan sát đúng. Gu
 2. **Node trả về toàn bộ State thay vì chỉ phần thay đổi** → phá vỡ nguyên tắc immutable, dữ liệu bị ghi đè sai.
 3. **Không giới hạn số vòng lặp Worker-Evaluator** → hai Agent "cãi nhau" vô hạn, tốn rất nhiều token.
 
-👉 Xem chi tiết cách setup LangSmith tại [`week5_langgraph/README.md`](../week5_langgraph/README.md), Bài 8.
+Xem chi tiết cách setup LangSmith tại [`week5_langgraph/README.md`](../week5_langgraph/README.md), Bài 8.
