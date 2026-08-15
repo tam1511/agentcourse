@@ -1,4 +1,4 @@
-# 🍎 Setup Môi Trường Học — macOS
+# Setup Môi Trường Học — macOS
 
 Trước khi bắt đầu coding, có một việc **bắt buộc** phải làm trước: setup environment (môi trường làm việc) cho Data Science, LLMs và Agentic AI.
 
@@ -140,7 +140,7 @@ code .
 
 Cursor sẽ mở đúng thư mục project và dùng môi trường `agents-env`.
 
-> 💡 Không dùng conda? Dùng `venv` + `pip install -r requirements.txt` thay thế — xem hướng dẫn ở README chính.
+> Không dùng conda? Dùng `venv` + `pip install -r requirements.txt` thay thế — xem hướng dẫn ở README chính.
 
 ---
 
@@ -152,7 +152,7 @@ Cursor sẽ mở đúng thư mục project và dùng môi trường `agents-env`
 
 Trong thư mục gốc của project → Chuột phải → New File → đặt tên `.env`
 
-> ⚠️ File `.env` là **secret**, chỉ tồn tại trên máy bạn và **không được push lên GitHub**. File `.gitignore` trong repo đã tự động loại trừ file này.
+> File `.env` là **secret**, chỉ tồn tại trên máy bạn và **không được push lên GitHub**. File `.gitignore` trong repo đã tự động loại trừ file này.
 
 **OpenAI API Key (bắt buộc để học tuần 3–5):**
 
@@ -169,7 +169,7 @@ OPENAI_API_KEY=sk-proj-xxxxxxxx
 
 ---
 
-## ✅ Kiểm tra lại từ đầu (khuyến nghị)
+## Kiểm tra lại từ đầu (khuyến nghị)
 
 Nếu bạn chưa quen, làm lại tuần tự các bước sau mỗi lần mở project:
 
@@ -179,7 +179,7 @@ conda activate agents-env
 code .
 ```
 
-Sau đó vào `week1_n8n_nocode/` (hoặc tuần bạn đang học) và bắt đầu coding ngay bây giờ! 🎉
+Sau đó vào `week1_n8n_nocode/` (hoặc tuần bạn đang học) và bắt đầu coding ngay bây giờ!
 
 ---
 
