@@ -1,4 +1,4 @@
-# 🤖 AI Agent Thực Chiến: n8n, Python SDK, MCP & LangGraph
+# AI Agent Thực Chiến: n8n, Python SDK, MCP & LangGraph
 
 **Tự động hoá kinh doanh với AI Agent — từ n8n no-code đến Python SDK, MCP Server và hệ Multi-Agent LangGraph.**
 
@@ -6,24 +6,24 @@
 
 ![MarketIQ Demo](assets/images/agentcourse_thumbnail.png)
 
-> 💡 Nếu bạn đang xem file này trong Cursor hoặc VS Code, hãy click chuột phải vào tên file trong Explorer bên trái và chọn **"Open Preview"** để xem đúng định dạng.
+> Nếu bạn đang xem file này trong Cursor hoặc VS Code, hãy click chuột phải vào tên file trong Explorer bên trái và chọn **"Open Preview"** để xem đúng định dạng.
 
 ---
 
-## 👋 Chào mừng bạn!
+## Chào mừng bạn!
 
 Đây là kho tài liệu tham khảo chính thức đi kèm khoá học **"AI Agent Thực Chiến"** trên Udemy. Repo này chứa:
 
-- 📖 Hướng dẫn setup môi trường chi tiết cho Windows / macOS / Linux
-- 🔑 Hướng dẫn lấy toàn bộ API key cần dùng trong khoá học
-- 📚 Các guide bổ sung (Python cơ bản, Async, MCP, so sánh framework...)
-- 📂 Source code & tài liệu tham khảo theo từng tuần học
-- ❓ Câu hỏi thường gặp và cách khắc phục lỗi phổ biến
+- Hướng dẫn setup môi trường chi tiết cho Windows / macOS / Linux
+- Hướng dẫn lấy toàn bộ API key cần dùng trong khoá học
+- Các guide bổ sung (Python cơ bản, Async, MCP, so sánh framework...)
+- Source code & tài liệu tham khảo theo từng tuần học
+- Câu hỏi thường gặp và cách khắc phục lỗi phổ biến
 
 
 ---
 
-## 🗺️ Lộ trình 5 tuần
+## Lộ trình 5 tuần
 
 | Tuần | Chủ đề | Công cụ chính | Bạn sẽ làm được gì |
 |---|---|---|---|
@@ -33,26 +33,26 @@
 | **4** | Model Context Protocol | MCP Server/Client (Python) | Tự xây MCP Server, kết nối dữ liệu thật, dự án hệ thống CSKH 4 AI nhân viên |
 | **5** | Multi-Agent chuyên sâu | LangGraph | Supervisor Pattern, Worker-Evaluator, checkpointing, capstone TroLy.AI |
 
-📌 Chi tiết từng bài học nằm trong README riêng của mỗi thư mục tuần — xem mục [Cấu trúc thư mục](#-cấu-trúc-thư-mục) bên dưới.
+Chi tiết từng bài học nằm trong README riêng của mỗi thư mục tuần — xem mục [Cấu trúc thư mục](#-cấu-trúc-thư-mục) bên dưới.
 
 ---
 
-## ⚙️ Setup môi trường — việc đầu tiên bắt buộc phải làm
+## Setup môi trường — việc đầu tiên bắt buộc phải làm
 
 **Đừng vội code ngay!** Nếu bỏ qua bước setup, bạn rất dễ gặp lỗi thư viện, version không tương thích, hoặc "code chạy máy tôi mà không chạy máy bạn". Hãy setup đúng ngay từ đầu, dùng xuyên suốt cả khoá học.
 
 | Hệ điều hành | Hướng dẫn |
 |---|---|
-| 🍎 macOS | [`setup/SETUP-mac.md`](./setup/SETUP-mac.md) |
-| 🪟 Windows | [`setup/SETUP-PC.md`](./setup/SETUP-PC.md) |
-| 🐧 Linux | [`setup/SETUP-linux.md`](./setup/SETUP-linux.md) |
-| 🔑 API Keys (tất cả các key cần dùng) | [`setup/API-KEYS.md`](./setup/API-KEYS.md) |
+| macOS | [`setup/SETUP-mac.md`](./setup/SETUP-mac.md) |
+| Windows | [`setup/SETUP-PC.md`](./setup/SETUP-PC.md) |
+| Linux | [`setup/SETUP-linux.md`](./setup/SETUP-linux.md) |
+| API Keys (tất cả các key cần dùng) | [`setup/API-KEYS.md`](./setup/API-KEYS.md) |
 
 Có vấn đề khi setup? Đừng tự loay hoay quá lâu — hỏi ngay trong phần Q&A của khoá học hoặc nhắn trực tiếp.
 
 ---
 
-## 💸 Về chi phí API — đọc trước khi bắt đầu!
+## Về chi phí API — đọc trước khi bắt đầu!
 
 Khoá học có gọi đến OpenAI và một số model khác, cần API key và một khoản chi phí nhỏ (thường dưới **5 USD** cho toàn khoá nếu dùng model mini/nano). Nếu bạn muốn **tiết kiệm tối đa hoặc miễn phí hoàn toàn**, khoá học có hướng dẫn dùng:
 
@@ -60,9 +60,9 @@ Khoá học có gọi đến OpenAI và một số model khác, cần API key v�
 - **Ollama** — chạy model AI 100% offline trên máy, không tốn phí API
 - **Groq** — tốc độ cực nhanh, có gói miễn phí
 
-👉 Xem chi tiết tại [`guides/09_ai_apis_mien_phi_va_ollama.md`](./guides/09_ai_apis_mien_phi_va_ollama.md)
+Xem chi tiết tại [`guides/09_ai_apis_mien_phi_va_ollama.md`](./guides/09_ai_apis_mien_phi_va_ollama.md)
 
-⚠️ Luôn theo dõi chi phí sử dụng của bạn tại [OpenAI Usage Dashboard](https://platform.openai.com/usage) để chủ động kiểm soát ngân sách.
+Luôn theo dõi chi phí sử dụng của bạn tại [OpenAI Usage Dashboard](https://platform.openai.com/usage) để chủ động kiểm soát ngân sách.
 
 ---
 
@@ -110,7 +110,7 @@ agentcourse/
 
 ---
 
-## 🚀 Bắt đầu nhanh (Quick Start)
+## Bắt đầu nhanh (Quick Start)
 
 ```bash
 # 1. Clone repo về máy
@@ -137,7 +137,7 @@ Sau khi setup xong, mở thư mục `week1/` và bắt đầu học ngay! 🎉
 
 ---
 
-## 🧰 Yêu cầu trước khi học
+## Yêu cầu trước khi học
 
 - Không cần biết lập trình để bắt đầu — Tuần 1 và Tuần 2 dùng n8n (kéo-thả, không cần code).
 - Có kiến thức Python cơ bản sẽ giúp bạn tiếp thu nhanh hơn ở Tuần 3–5, nhưng **không bắt buộc** — có hướng dẫn từng dòng lệnh.
@@ -146,7 +146,7 @@ Sau khi setup xong, mở thư mục `week1/` và bắt đầu học ngay! 🎉
 
 ---
 
-## 🎯 Sau khoá học bạn sẽ làm được gì?
+## Sau khoá học bạn sẽ làm được gì?
 
 - Xây AI Agent tự động hoá quy trình kinh doanh bằng n8n — từ số 0 đến production.
 - Tích hợp Agent với Gmail, Google Sheets, Telegram, Slack cho sales/CSKH/vận hành.
@@ -156,7 +156,7 @@ Sau khi setup xong, mở thư mục `week1/` và bắt đầu học ngay! 🎉
 
 ---
 
-## ❓ Câu hỏi thường gặp
+## Câu hỏi thường gặp
 
 | Câu hỏi | Trả lời ngắn |
 |---|---|
@@ -168,19 +168,19 @@ Sau khi setup xong, mở thư mục `week1/` và bắt đầu học ngay! 🎉
 
 ---
 
-## 📬 Kết nối & hỗ trợ
+## Kết nối & hỗ trợ
 
 Mọi thắc mắc trong quá trình học, hãy đặt câu hỏi trực tiếp trong phần **Q&A của khoá học trên Udemy** — đó là nơi phản hồi nhanh nhất. 
 Hoặc có thể liên hệ trực tiếp với mình qua **Email: timiofficial.vn@gmai.com** / **LinkedIn: https://www.linkedin.com/in/timi11/**
 
 ---
 
-## 📜 License
+## License
 
 Tài liệu và source code trong repo này được phát hành theo giấy phép [MIT License](./LICENSE) — tự do sử dụng, chỉnh sửa cho mục đích học tập và thương mại, miễn ghi nguồn.
 
 ---
 
-### ✨ Trên hết —
+### Trên hết —
 
 Hãy tận hưởng khoá học! Bạn không thể chọn thời điểm nào tốt hơn để học về Agentic AI. Chúc bạn xây được thật nhiều Agent hữu ích! 🚀
