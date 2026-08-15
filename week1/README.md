@@ -1,6 +1,6 @@
 # Tuần 1 — AI Agent No-Code Với n8n
 
-> 🎯 **Mục tiêu tuần này:** Hiểu bản chất một AI Agent (model + memory + tool) và tự xây được Agent đầu tiên, tích hợp Gmail/Sheets/Telegram/Slack — hoàn toàn không cần biết code.
+> **Mục tiêu tuần này:** Hiểu bản chất một AI Agent (model + memory + tool) và tự xây được Agent đầu tiên, tích hợp Gmail/Sheets/Telegram/Slack — hoàn toàn không cần biết code.
 
 **Công cụ:** n8n Cloud · OpenAI · OpenRouter
 
@@ -46,17 +46,17 @@
 
 ---
 
-## 🏆 Capstone Tuần 1: Smart Business Dashboard
+## Capstone Tuần 1: Smart Business Dashboard
 
 Một hệ thống n8n hoàn chỉnh: Agent tự đọc dữ liệu kinh doanh, phân loại mức độ cảnh báo (Normal/Warning/Critical) và có thể **triển khai thật, gửi cho khách hàng sử dụng ngay**.
 
-## ✅ Checklist hoàn thành tuần 1
+## Checklist hoàn thành tuần 1
 
 - [ ] Hiểu 3 thành phần lõi của Agent: model, memory, tool
 - [ ] Biết viết System Prompt + User Prompt hiệu quả
 - [ ] Kết nối được Agent với ít nhất 2 trong số: Gmail, Sheets, Telegram, Slack
 - [ ] Hoàn thành Smart Business Dashboard và deploy được workflow
 
-## 🔜 Chuẩn bị cho Tuần 2
+## Chuẩn bị cho Tuần 2
 
 Tuần 2 sẽ chuyển sang **self-host n8n bằng Docker** — cài đặt Docker Desktop trước nếu muốn học mượt hơn (không bắt buộc, sẽ hướng dẫn từ đầu).
