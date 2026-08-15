@@ -1,6 +1,6 @@
 # Tuần 4 — Model Context Protocol (MCP) Chuyên Sâu
 
-> 🎯 **Mục tiêu tuần này:** Tự xây MCP Server/Client bằng Python, kết nối Agent với dữ liệu và API thực tế của doanh nghiệp, và xây dựng một hệ thống CSKH gồm 4 "AI nhân viên" phối hợp qua MCP.
+> **Mục tiêu tuần này:** Tự xây MCP Server/Client bằng Python, kết nối Agent với dữ liệu và API thực tế của doanh nghiệp, và xây dựng một hệ thống CSKH gồm 4 "AI nhân viên" phối hợp qua MCP.
 
 **Công cụ:** Python · MCP SDK · Tavily MCP · Custom Tracer · Gradio
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Danh sách bài học
+## Danh sách bài học
 
 ### Day 1 — Kiến Trúc MCP & Kết Nối Đầu Tiên
 | # | Bài học | Thời lượng | Nội dung chính |
@@ -54,11 +54,11 @@
 
 ---
 
-## 🏆 Capstone Tuần 4: Hệ Thống CSKH 4 "AI Nhân Viên"
+## Capstone Tuần 4: Hệ Thống CSKH 4 "AI Nhân Viên"
 
 Một hệ thống CSKH hoàn chỉnh với 4 Agent chuyên biệt phối hợp qua MCP Server tự xây, tổng cộng **42 tools**, có Custom Tracer ghi lại toàn bộ hoạt động vào database, và giao diện Gradio để vận hành thật.
 
-## ✅ Checklist hoàn thành tuần 4
+## Checklist hoàn thành tuần 4
 
 - [ ] Hiểu và giải thích được kiến trúc Host — Client — Server
 - [ ] Tự viết được một MCP Server Python từ đầu (Tools + Resources)
@@ -66,6 +66,6 @@ Một hệ thống CSKH hoàn chỉnh với 4 Agent chuyên biệt phối hợp 
 - [ ] Biết 5 rủi ro bảo mật cần kiểm tra trước khi deploy MCP Server
 - [ ] Hoàn thành hệ thống CSKH 4 Agent với Custom Tracer
 
-## 🔜 Chuẩn bị cho Tuần 5
+## Chuẩn bị cho Tuần 5
 
 Tuần cuối cùng — **LangGraph** — sẽ đào sâu vào kiểm soát workflow multi-agent phức tạp. Xem trước [`week5_langgraph/README.md`](../week5_langgraph/README.md).
