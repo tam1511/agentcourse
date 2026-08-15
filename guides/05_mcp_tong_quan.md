@@ -42,4 +42,4 @@ Trước MCP: mỗi lần muốn Agent dùng một công cụ mới (Slack, Noti
 4. Rò rỉ secret/API key khi Server log không cẩn thận
 5. Thiếu xác thực (authentication) khi deploy Server ở chế độ HTTP remote
 
-👉 Học chi tiết đầy đủ về kiến trúc, cách tự code MCP Server/Client bằng Python trong [`week4_mcp/README.md`](../week4_mcp/README.md).
+Học chi tiết đầy đủ về kiến trúc, cách tự code MCP Server/Client bằng Python trong [`week4_mcp/README.md`](../week4_mcp/README.md).
