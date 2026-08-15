@@ -1,6 +1,6 @@
 # Tuần 5 — LangGraph & Hệ Multi-Agent Chuyên Sâu
 
-> 🎯 **Mục tiêu tuần này:** Làm chủ LangGraph để kiểm soát workflow phức tạp — State, Checkpointing, Supervisor Pattern, Worker-Evaluator — và khép lại khoá học bằng một Trợ Lý AI Doanh Nghiệp hoàn chỉnh.
+> **Mục tiêu tuần này:** Làm chủ LangGraph để kiểm soát workflow phức tạp — State, Checkpointing, Supervisor Pattern, Worker-Evaluator — và khép lại khoá học bằng một Trợ Lý AI Doanh Nghiệp hoàn chỉnh.
 
 **Công cụ:** Python · LangGraph · LangChain · LangSmith · SQLite · Gradio · Serper
 
@@ -8,9 +8,9 @@
 
 ---
 
-## 📋 Danh sách bài học
+## Danh sách bài học
 
-### 🎬 Intro
+### Intro
 | Bài học | Thời lượng | Mô tả |
 |---|---|---|
 | LangGraph Là Gì? — Giải Mã Hệ Sinh Thái LangChain | 8:20 | Phân biệt LangChain / LangGraph / LangSmith trước khi bắt đầu — xem thêm [`guides/06_so_sanh_framework_agent.md`](../guides/06_so_sanh_framework_agent.md) |
@@ -53,19 +53,19 @@
 
 ---
 
-## 🏆 Capstone Tuần 5 & Toàn Khoá Học: TroLy.AI
+## Capstone Tuần 5 & Toàn Khoá Học: TroLy.AI
 
 Trợ lý AI Doanh Nghiệp Việt Nam hoàn chỉnh — một **"Operator Agent"** thực thụ có thể:
-- 🔍 Nghiên cứu thị trường và tự viết báo cáo (lưu file thật)
-- 🧮 Phân tích số liệu kinh doanh, tính KPI
-- ✍️ Soạn thảo nội dung công việc (email, đề xuất, kế hoạch)
-- 🧠 Ghi nhớ ngữ cảnh qua nhiều phiên làm việc (SQLite)
-- ✅ Tự đánh giá chất lượng output trước khi trả lời (Worker-Evaluator)
-- 👥 Phục vụ nhiều người dùng đồng thời, dữ liệu tách biệt an toàn
+- Nghiên cứu thị trường và tự viết báo cáo (lưu file thật)
+- Phân tích số liệu kinh doanh, tính KPI
+- Soạn thảo nội dung công việc (email, đề xuất, kế hoạch)
+- Ghi nhớ ngữ cảnh qua nhiều phiên làm việc (SQLite)
+- Tự đánh giá chất lượng output trước khi trả lời (Worker-Evaluator)
+- Phục vụ nhiều người dùng đồng thời, dữ liệu tách biệt an toàn
 
-📄 Tài liệu chi tiết tiêu đề & mô tả từng bài (bản mở rộng) xem tại [`../docs/tieu-de-mo-ta-tuan-5-langgraph.md`](../docs/tieu-de-mo-ta-tuan-5-langgraph.md) *(nếu có trong repo của bạn)*.
+Tài liệu chi tiết tiêu đề & mô tả từng bài (bản mở rộng) xem tại [`../docs/tieu-de-mo-ta-tuan-5-langgraph.md`](../docs/tieu-de-mo-ta-tuan-5-langgraph.md) *(nếu có trong repo của bạn)*.
 
-## ✅ Checklist hoàn thành tuần 5 (và cả khoá học!)
+## Checklist hoàn thành tuần 5 (và cả khoá học!)
 
 - [ ] Hiểu State, Node, Edge, Conditional Edge
 - [ ] Biết dùng Reducer và giải thích được nguyên lý immutable
