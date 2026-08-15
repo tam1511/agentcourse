@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Danh sách bài học
+## Danh sách bài học
 
 ### Day 1 — Nhập môn & Nền tảng
 | # | Bài học | Thời lượng | Nội dung chính |
