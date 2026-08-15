@@ -1,4 +1,4 @@
-# 🐧 Setup Môi Trường Học — Linux
+# Setup Môi Trường Học — Linux
 
 Trước khi bắt đầu coding, có một việc **bắt buộc** phải làm trước: setup environment (môi trường làm việc) cho Data Science, LLMs và Agentic AI.
 
@@ -32,7 +32,7 @@ conda --version
 
 Nếu thấy version hiện ra → cài đặt thành công.
 
-> 📎 Trang tải chính thức: https://www.anaconda.com/docs/getting-started/anaconda/install — chọn hệ điều hành **Linux** nếu muốn tải bằng GUI installer thay vì dòng lệnh.
+> Trang tải chính thức: https://www.anaconda.com/docs/getting-started/anaconda/install — chọn hệ điều hành **Linux** nếu muốn tải bằng GUI installer thay vì dòng lệnh.
 
 ---
 
@@ -91,7 +91,7 @@ conda activate agents-env
 code .
 ```
 
-> 💡 Không dùng conda? Dùng:
+> Không dùng conda? Dùng:
 > ```bash
 > python3 -m venv .venv
 > source .venv/bin/activate
@@ -108,7 +108,7 @@ Tạo file `.env` trong thư mục gốc của project:
 touch .env
 ```
 
-> ⚠️ File `.env` là **secret**, không được push lên GitHub (đã được loại trừ trong `.gitignore`).
+> File `.env` là **secret**, không được push lên GitHub (đã được loại trừ trong `.gitignore`).
 
 **OpenAI API Key (bắt buộc để học tuần 3–5):**
 
@@ -124,7 +124,7 @@ OPENAI_API_KEY=sk-proj-xxxxxxxx
 
 ---
 
-## ⚠️ Lỗi thường gặp trên Linux
+## Lỗi thường gặp trên Linux
 
 | Lỗi | Cách khắc phục |
 |---|---|
@@ -134,7 +134,7 @@ OPENAI_API_KEY=sk-proj-xxxxxxxx
 
 ---
 
-## ✅ Kiểm tra lại từ đầu
+## Kiểm tra lại từ đầu
 
 ```bash
 cd ~/projects/agentcourse
@@ -142,7 +142,7 @@ conda activate agents-env
 code .
 ```
 
-Sau đó vào `week1_n8n_nocode/` và bắt đầu coding ngay bây giờ! 🎉
+Sau đó vào `week1_n8n_nocode/` và bắt đầu coding ngay bây giờ!
 
 ---
 
