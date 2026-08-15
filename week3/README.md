@@ -1,6 +1,6 @@
 # Tuần 3 — Lập Trình AI Agent Bằng OpenAI Agents SDK (Python)
 
-> 🎯 **Mục tiêu tuần này:** Chuyển từ no-code sang code thật. Làm chủ OpenAI Agents SDK: async, multi-agent, structured outputs, guardrails, và tự deploy ứng dụng Agent lên internet.
+> **Mục tiêu tuần này:** Chuyển từ no-code sang code thật. Làm chủ OpenAI Agents SDK: async, multi-agent, structured outputs, guardrails, và tự deploy ứng dụng Agent lên internet.
 
 **Công cụ:** Python · OpenAI Agents SDK · Pydantic · Tavily · Resend · Gradio · HuggingFace Spaces
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Danh sách bài học
+## Danh sách bài học
 
 ### Day 1 — Agent Đầu Tiên Bằng Code
 | # | Bài học | Thời lượng | Nội dung chính |
@@ -54,11 +54,11 @@
 
 ---
 
-## 🏆 Capstone Tuần 3: Deep Research App
+## Capstone Tuần 3: Deep Research App
 
 Ứng dụng nghiên cứu chuyên sâu hoàn chỉnh: Planner Agent phân rã câu hỏi → tìm kiếm song song bằng Tavily → tổng hợp báo cáo → giao diện Gradio → **deploy công khai trên HuggingFace Spaces**.
 
-## ✅ Checklist hoàn thành tuần 3
+## Checklist hoàn thành tuần 3
 
 - [ ] Viết được Agent cơ bản với Agent/Runner/Trace
 - [ ] Phân biệt được Agent-as-Tool và Handoff, biết khi nào dùng cái nào
@@ -66,6 +66,6 @@
 - [ ] Chạy được tác vụ song song bằng `asyncio.gather()`
 - [ ] Deploy thành công Deep Research App lên HuggingFace Spaces
 
-## 🔜 Chuẩn bị cho Tuần 4
+## Chuẩn bị cho Tuần 4
 
 Tuần 4 đào sâu vào **MCP** — đọc trước [`guides/05_mcp_tong_quan.md`](../guides/05_mcp_tong_quan.md) để có nền tảng.
