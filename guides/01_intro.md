@@ -21,9 +21,9 @@ Mỗi tuần không phải một công cụ tách biệt — chúng là các l�
 
 ## Cách học hiệu quả
 
-- ✅ Luôn **chạy code thật** — đừng chỉ xem video. Học Agentic AI mà không code giống như học bơi mà không xuống nước.
-- ✅ Khi Agent chạy lỗi, đọc kỹ traceback / trace dashboard trước khi hỏi — hầu hết lỗi setup được liệt kê trong [`08_troubleshooting.md`](./08_troubleshooting.md).
-- ✅ Làm capstone project cuối mỗi tuần cẩn thận — đó là lúc kiến thức thực sự "dính" lại.
-- ✅ Không cần thuộc lòng cú pháp — quan trọng là hiểu khái niệm (Agent, Tool, State, Memory, Handoff...), cú pháp có thể tra lại bất cứ lúc nào.
+- Luôn **chạy code thật** — đừng chỉ xem video. Học Agentic AI mà không code giống như học bơi mà không xuống nước.
+- Khi Agent chạy lỗi, đọc kỹ traceback / trace dashboard trước khi hỏi — hầu hết lỗi setup được liệt kê trong [`08_troubleshooting.md`](./08_troubleshooting.md).
+- Làm capstone project cuối mỗi tuần cẩn thận — đó là lúc kiến thức thực sự "dính" lại.
+- Không cần thuộc lòng cú pháp — quan trọng là hiểu khái niệm (Agent, Tool, State, Memory, Handoff...), cú pháp có thể tra lại bất cứ lúc nào.
 
-Chúc bạn học vui! 🚀
+Chúc bạn học vui!
