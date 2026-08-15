@@ -66,7 +66,7 @@ Luôn theo dõi chi phí sử dụng của bạn tại [OpenAI Usage Dashboard](
 
 ---
 
-## 📂 Cấu trúc thư mục
+## Cấu trúc thư mục
 
 ```
 agentcourse/
