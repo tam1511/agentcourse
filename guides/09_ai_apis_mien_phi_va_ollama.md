@@ -11,7 +11,7 @@ Bạn hoàn toàn có thể học **toàn bộ khoá học** này mà không t�
 | **Groq** | Miễn phí (giới hạn/phút) | **Cực nhanh** (LPU) | Tốt (model open-source) | Có |
 | **OpenRouter (model `:free`)** | Miễn phí | Trung bình | Tuỳ model | Có |
 | **DeepSeek (qua OpenRouter)** | Rất rẻ | Nhanh | Rất tốt, giá tốt nhất/hiệu năng | Có |
-| **Ollama (local)** | Hoàn toàn miễn phí | Tuỳ máy | Tuỳ model (nhỏ hơn cloud) | ❌ Không cần |
+| **Ollama (local)** | Hoàn toàn miễn phí | Tuỳ máy | Tuỳ model (nhỏ hơn cloud) | Không cần |
 
 ## 1. Google Gemini (miễn phí)
 
@@ -81,7 +81,7 @@ ollama_client = AsyncOpenAI(
 model = OpenAIChatCompletionsModel(model="llama3.2", openai_client=ollama_client)
 ```
 
-> ⚠️ Model chạy local sẽ chậm hơn và "kém thông minh" hơn model cloud lớn nếu máy bạn không có GPU mạnh — phù hợp để học và test, không khuyến nghị cho production yêu cầu chất lượng cao.
+> Model chạy local sẽ chậm hơn và "kém thông minh" hơn model cloud lớn nếu máy bạn không có GPU mạnh — phù hợp để học và test, không khuyến nghị cho production yêu cầu chất lượng cao.
 
 ## Khuyến nghị cho từng giai đoạn học
 
