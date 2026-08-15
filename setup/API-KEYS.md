@@ -1,4 +1,4 @@
-# 🔑 Hướng Dẫn Lấy Toàn Bộ API Key Cho Khoá Học
+# Hướng Dẫn Lấy Toàn Bộ API Key Cho Khoá Học
 
 File này tổng hợp **tất cả** API key bạn cần trong suốt 5 tuần học, kèm hướng dẫn lấy key từng bước và ghi chú key nào **bắt buộc**, key nào **tuỳ chọn**.
 
@@ -6,16 +6,16 @@ File này tổng hợp **tất cả** API key bạn cần trong suốt 5 tuần 
 
 | API Key | Dùng ở tuần | Bắt buộc? | Miễn phí? |
 |---|---|---|---|
-| `OPENAI_API_KEY` | 3, 4, 5 | ✅ Bắt buộc (hoặc thay bằng OpenRouter/Groq/Ollama) | ❌ Trả phí (rất rẻ) |
-| `RESEND_API_KEY` | 3 | Chỉ khi học bài gửi email | ✅ Có gói miễn phí |
-| `GROQ_API_KEY` | 3 | Tuỳ chọn (model miễn phí, tốc độ cao) | ✅ Miễn phí |
-| `GOOGLE_API_KEY` | 3, 2 | Tuỳ chọn (dùng Gemini thay OpenAI) | ✅ Có gói miễn phí |
-| `OPENROUTER_API_KEY` | 1, 3 | Tuỳ chọn (truy cập nhiều model qua 1 key) | ✅ Có model miễn phí |
-| `TAVILY_API_KEY` | 3, 4 | Cần cho bài Web Search Agent | ✅ Có gói miễn phí |
-| `SERPER_API_KEY` | 5 | Cần cho tools tìm kiếm web trong LangGraph | ✅ Có gói miễn phí (2.500 lượt) |
-| `HF_TOKEN` (Hugging Face) | 3 | Cần khi deploy lên HuggingFace Spaces | ✅ Miễn phí |
+| `OPENAI_API_KEY` | 3, 4, 5 | Bắt buộc (hoặc thay bằng OpenRouter/Groq/Ollama) | Trả phí (rất rẻ) |
+| `RESEND_API_KEY` | 3 | Chỉ khi học bài gửi email | Có gói miễn phí |
+| `GROQ_API_KEY` | 3 | Tuỳ chọn (model miễn phí, tốc độ cao) | Miễn phí |
+| `GOOGLE_API_KEY` | 3, 2 | Tuỳ chọn (dùng Gemini thay OpenAI) | Có gói miễn phí |
+| `OPENROUTER_API_KEY` | 1, 3 | Tuỳ chọn (truy cập nhiều model qua 1 key) | Có model miễn phí |
+| `TAVILY_API_KEY` | 3, 4 | Cần cho bài Web Search Agent | Có gói miễn phí |
+| `SERPER_API_KEY` | 5 | Cần cho tools tìm kiếm web trong LangGraph | Có gói miễn phí (2.500 lượt) |
+| `HF_TOKEN` (Hugging Face) | 3 | Cần khi deploy lên HuggingFace Spaces | Miễn phí |
 
-> 💡 **Không muốn tốn tiền?** Bạn hoàn toàn có thể học hết khoá bằng các key miễn phí (Groq, Gemini free tier, OpenRouter free models, Ollama local). Xem [`guides/09_ai_apis_mien_phi_va_ollama.md`](../guides/09_ai_apis_mien_phi_va_ollama.md).
+> **Không muốn tốn tiền?** Bạn hoàn toàn có thể học hết khoá bằng các key miễn phí (Groq, Gemini free tier, OpenRouter free models, Ollama local). Xem [`guides/09_ai_apis_mien_phi_va_ollama.md`](../guides/09_ai_apis_mien_phi_va_ollama.md).
 
 ---
 
@@ -33,7 +33,7 @@ Dùng chính cho Tuần 3–5 (OpenAI Agents SDK, LangGraph).
 OPENAI_API_KEY=sk-proj-xxxxxxxxxxxxxxxxxxxx
 ```
 
-📊 Theo dõi chi phí tại: https://platform.openai.com/usage
+Theo dõi chi phí tại: https://platform.openai.com/usage
 
 ---
 
@@ -50,8 +50,8 @@ Dùng ở Tuần 3, bài "Trang bị công cụ cho Agent — xây tool gửi em
 RESEND_API_KEY=re_xxxxxxxxxxxxxxxxxxxx
 ```
 
-> 📩 Gói miễn phí: 100 email/ngày, 3.000 email/tháng — quá đủ để luyện tập.
-> ⚠️ Ở chế độ miễn phí/chưa xác minh domain, bạn chỉ có thể gửi đến chính email đã đăng ký tài khoản Resend — điều này là bình thường.
+> Gói miễn phí: 100 email/ngày, 3.000 email/tháng — quá đủ để luyện tập.
+> Ở chế độ miễn phí/chưa xác minh domain, bạn chỉ có thể gửi đến chính email đã đăng ký tài khoản Resend — điều này là bình thường.
 
 ---
 
@@ -85,7 +85,7 @@ Dùng khi bạn muốn thay OpenAI bằng Gemini (miễn phí) ở nhiều bài 
 GOOGLE_API_KEY=AIzaSyxxxxxxxxxxxxxxxxxxxx
 ```
 
-> 🆓 Google AI Studio có gói miễn phí (giới hạn request/phút) rất phù hợp để học và test.
+> Google AI Studio có gói miễn phí (giới hạn request/phút) rất phù hợp để học và test.
 
 ---
 
@@ -102,7 +102,7 @@ Dùng ở Tuần 1 (bài "Dùng model AI miễn phí với OpenRouter") và Tu�
 OPENROUTER_API_KEY=sk-or-v1-xxxxxxxxxxxxxxxxxxxx
 ```
 
-> 🎯 OpenRouter cho phép gọi hàng trăm model (bao gồm nhiều model **miễn phí**, ký hiệu `:free` trong tên model) chỉ với một API key duy nhất, và một endpoint tương thích chuẩn OpenAI.
+> OpenRouter cho phép gọi hàng trăm model (bao gồm nhiều model **miễn phí**, ký hiệu `:free` trong tên model) chỉ với một API key duy nhất, và một endpoint tương thích chuẩn OpenAI.
 
 ---
 
@@ -119,7 +119,7 @@ Dùng ở Tuần 3 (bài "Web Search Tool") và Tuần 4.
 TAVILY_API_KEY=tvly-xxxxxxxxxxxxxxxxxxxx
 ```
 
-> 🔍 Gói miễn phí: 1.000 lượt tìm kiếm/tháng — được thiết kế riêng cho AI Agent (trả kết quả đã tối ưu cho LLM đọc, không phải HTML thô).
+> Gói miễn phí: 1.000 lượt tìm kiếm/tháng — được thiết kế riêng cho AI Agent (trả kết quả đã tối ưu cho LLM đọc, không phải HTML thô).
 
 ---
 
@@ -136,7 +136,7 @@ Dùng ở Tuần 5, các bài xây tool `tim_kiem_web` trong LangGraph.
 SERPER_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-> 🔍 Gói miễn phí: 2.500 lượt tìm kiếm — dữ liệu lấy trực tiếp từ Google Search, tốc độ phản hồi rất nhanh.
+> Gói miễn phí: 2.500 lượt tìm kiếm — dữ liệu lấy trực tiếp từ Google Search, tốc độ phản hồi rất nhanh.
 
 ---
 
@@ -153,11 +153,11 @@ Dùng ở Tuần 3 (bài "Deploy lên HuggingFace Spaces miễn phí").
 HF_TOKEN=hf_xxxxxxxxxxxxxxxxxxxx
 ```
 
-> 🌐 HuggingFace Spaces cho phép deploy ứng dụng Gradio miễn phí, có link public để chia sẻ demo Agent của bạn với bất kỳ ai.
+> HuggingFace Spaces cho phép deploy ứng dụng Gradio miễn phí, có link public để chia sẻ demo Agent của bạn với bất kỳ ai.
 
 ---
 
-## 📄 File `.env` hoàn chỉnh mẫu
+## File `.env` hoàn chỉnh mẫu
 
 Tạo file `.env` ở thư mục gốc project với nội dung sau (điền key thật vào, xoá dòng nào bạn không dùng):
 
@@ -183,7 +183,7 @@ Xem file mẫu sẵn có tại [`.env.example`](../.env.example) ở thư mục 
 
 ---
 
-## ⚠️ Lưu ý bảo mật quan trọng
+## Lưu ý bảo mật quan trọng
 
 - **Không bao giờ** commit file `.env` lên GitHub — repo này đã cấu hình `.gitignore` để tự động loại trừ.
 - **Không bao giờ** chia sẻ API key trong ảnh chụp màn hình, video, hoặc gửi qua chat công khai.
