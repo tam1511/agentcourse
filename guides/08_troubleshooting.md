@@ -1,6 +1,6 @@
 # 08 — Troubleshooting: Các Lỗi Thường Gặp Và Cách Khắc Phục
 
-## 🔧 Lỗi môi trường / setup
+## Lỗi môi trường / setup
 
 | Lỗi | Nguyên nhân thường gặp | Cách khắc phục |
 |---|---|---|
@@ -10,7 +10,7 @@
 | Cursor không nhận đúng Python interpreter | IDE đang trỏ vào Python hệ thống thay vì môi trường conda | Trong Cursor: `Cmd/Ctrl + Shift + P` → "Python: Select Interpreter" → chọn `agents-env` |
 | Lệnh `code .` không hoạt động | Chưa cài Shell Command trong Cursor | Xem lại bước "Thiết lập nhanh" trong file SETUP tương ứng hệ điều hành |
 
-## 🔑 Lỗi API Key
+## Lỗi API Key
 
 | Lỗi | Nguyên nhân | Cách khắc phục |
 |---|---|---|
@@ -19,7 +19,7 @@
 | Key hoạt động trong notebook nhưng không hoạt động khi chạy file `.py` | Notebook có thể đã cache biến môi trường cũ | Restart kernel/terminal, đảm bảo `.env` nằm đúng thư mục gốc project |
 | `.env` không được đọc | File đặt sai vị trí, hoặc thiếu `python-dotenv` | Đảm bảo `.env` nằm cùng cấp với file chạy chính; `pip install python-dotenv` |
 
-## 🐳 Lỗi Docker (Tuần 2 — self-host n8n)
+## Lỗi Docker (Tuần 2 — self-host n8n)
 
 | Lỗi | Nguyên nhân | Cách khắc phục |
 |---|---|---|
@@ -27,7 +27,7 @@
 | `port is already allocated` | Port 5678 (mặc định n8n) đang bị chiếm | Đổi port trong `docker-compose.yml`, hoặc tắt tiến trình đang dùng port đó |
 | Permission denied trên Linux | User chưa thuộc group `docker` | `sudo usermod -aG docker $USER` rồi đăng xuất/đăng nhập lại |
 
-## 🧩 Lỗi khi chạy Agent (Tuần 3-5)
+## Lỗi khi chạy Agent (Tuần 3-5)
 
 | Lỗi | Nguyên nhân | Cách khắc phục |
 |---|---|---|
