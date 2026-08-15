@@ -1,6 +1,6 @@
 # Tuần 2 — Self-Host n8n, OAuth2 Nâng Cao & MCP Nhập Môn
 
-> 🎯 **Mục tiêu tuần này:** Tự host n8n bằng Docker, chạy model AI miễn phí/offline (DeepSeek, Ollama), làm chủ Google OAuth2, và bắt đầu làm quen với MCP — chuẩn kết nối Agent đang thay đổi cả ngành.
+> **Mục tiêu tuần này:** Tự host n8n bằng Docker, chạy model AI miễn phí/offline (DeepSeek, Ollama), làm chủ Google OAuth2, và bắt đầu làm quen với MCP — chuẩn kết nối Agent đang thay đổi cả ngành.
 
 **Công cụ:** Docker Desktop · n8n self-host · Ollama · Google OAuth2 · Firecrawl · MCP
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Danh sách bài học
+## Danh sách bài học
 
 ### Day 1 — Self-Host & Model Miễn Phí
 | # | Bài học | Thời lượng | Nội dung chính |
@@ -47,11 +47,11 @@
 
 ---
 
-## 🏆 Capstone Tuần 2: Hệ Thống Sales Pipeline 4 Sub-Agent + Voice Agent
+## Capstone Tuần 2: Hệ Thống Sales Pipeline 4 Sub-Agent + Voice Agent
 
 Một hệ thống tự động hoá bán hàng hoàn chỉnh gồm 4 sub-agent chuyên biệt (Operations, Sales, BDM, Learning Advisor) phối hợp qua một pipeline, kết hợp AI Voice Agent tiếng Việt nghe điện thoại và tự ghi nhận vào CRM.
 
-## ✅ Checklist hoàn thành tuần 2
+## Checklist hoàn thành tuần 2
 
 - [ ] Tự host được n8n bằng Docker (Desktop hoặc Compose)
 - [ ] Kết nối được ít nhất 1 model miễn phí (DeepSeek/Ollama)
@@ -59,6 +59,6 @@ Một hệ thống tự động hoá bán hàng hoàn chỉnh gồm 4 sub-agent 
 - [ ] Hiểu kiến trúc MCP (Host/Client/Server) và kết nối được 1 MCP Server
 - [ ] Hoàn thành hệ thống 4 Sub-agent + Voice Agent
 
-## 🔜 Chuẩn bị cho Tuần 3
+## Chuẩn bị cho Tuần 3
 
 Từ Tuần 3, khoá học chuyển hẳn sang **viết code Python**. Đảm bảo đã hoàn thành setup môi trường ở [`setup/`](../setup/) (Anaconda/Miniconda + Cursor + `.env`).
