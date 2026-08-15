@@ -1,4 +1,4 @@
-# 🪟 Setup Môi Trường Học — Windows
+# Setup Môi Trường Học — Windows
 
 Trước khi bắt đầu coding, có một việc **bắt buộc** phải làm trước: setup environment (môi trường làm việc) cho Data Science, LLMs và Agentic AI.
 
@@ -28,7 +28,7 @@ Nếu bỏ qua bước này, bạn rất dễ gặp: lỗi thư viện Python, p
 2. Chọn **Miniconda**
 3. Chọn hệ điều hành **Windows**
 4. Tải file `.exe` và cài đặt theo hướng dẫn (Next / I Agree / Install)
-5. ⚠️ Tại bước **Advanced Options**, tick chọn **"Add Miniconda3 to my PATH environment variable"** (dù trình cài đặt cảnh báo không khuyến nghị — chọn tick vào sẽ giúp việc dùng lệnh `conda` từ mọi nơi dễ dàng hơn cho người mới)
+5. Tại bước **Advanced Options**, tick chọn **"Add Miniconda3 to my PATH environment variable"** (dù trình cài đặt cảnh báo không khuyến nghị — chọn tick vào sẽ giúp việc dùng lệnh `conda` từ mọi nơi dễ dàng hơn cho người mới)
 
 Sau khi cài xong, mở **Anaconda Prompt** (hoặc Command Prompt / PowerShell nếu đã add vào PATH) và kiểm tra:
 
@@ -76,7 +76,7 @@ git --version
 
 Nếu báo lỗi "not recognized" → tải Git tại: https://git-scm.com/download/win và cài đặt (giữ các tuỳ chọn mặc định khi cài).
 
-> 💡 Khuyến nghị: dùng **PowerShell** hoặc **Git Bash** (được cài kèm khi cài Git) thay vì Command Prompt cũ để các lệnh trong khoá học chạy mượt hơn.
+> Khuyến nghị: dùng **PowerShell** hoặc **Git Bash** (được cài kèm khi cài Git) thay vì Command Prompt cũ để các lệnh trong khoá học chạy mượt hơn.
 
 **Tạo thư mục chứa project:**
 
@@ -129,7 +129,7 @@ conda activate agents-env
 code .
 ```
 
-> 💡 Không dùng conda? Dùng:
+> Không dùng conda? Dùng:
 > ```powershell
 > python -m venv .venv
 > .venv\Scripts\activate
@@ -142,7 +142,7 @@ code .
 
 **Tạo file `.env`** trong thư mục gốc của project → Chuột phải trong Explorer của Cursor/VS Code → New File → đặt tên `.env`
 
-> ⚠️ File `.env` là **secret**, chỉ tồn tại trên máy bạn và **không được push lên GitHub**.
+> File `.env` là **secret**, chỉ tồn tại trên máy bạn và **không được push lên GitHub**.
 
 **OpenAI API Key (bắt buộc để học tuần 3–5):**
 
@@ -159,7 +159,7 @@ OPENAI_API_KEY=sk-proj-xxxxxxxx
 
 ---
 
-## ⚠️ Lỗi thường gặp trên Windows
+## Lỗi thường gặp trên Windows
 
 | Lỗi | Cách khắc phục |
 |---|---|
@@ -170,7 +170,7 @@ OPENAI_API_KEY=sk-proj-xxxxxxxx
 
 ---
 
-## ✅ Kiểm tra lại từ đầu (khuyến nghị)
+## Kiểm tra lại từ đầu (khuyến nghị)
 
 ```powershell
 cd C:\projects\agentcourse
